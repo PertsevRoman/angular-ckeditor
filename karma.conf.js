@@ -12,9 +12,9 @@ module.exports = function (config) {
     reporters: ['dots'],
     browsers: [process.env.TRAVIS ? 'Firefox' : 'Chrome'],
     files: [
-      'bower_components/jquery/dist/jquery.js',
-      'bower_components/angular/angular.js',
-      'bower_components/ckeditor/ckeditor.js',
+      'node_modules/jquery/dist/jquery.js',
+      'node_modules/angular/angular.js',
+      'node_modules/ckeditor/ckeditor.js',
 
       {
         pattern: 'bower_components/ckeditor/**/*',
